@@ -1,0 +1,39 @@
+ 
+
+  .header {
+    height:55px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .left-section {
+  background-color: lightblue;
+  width: 150px;
+  
+  display: flex;          /* make items horizontal */
+  flex-direction: row;    /* default, but good to be explicit */
+  align-items: center;    /* vertically center the icons */
+  gap: 20px;              /* optional: space between icons */
+  padding-left: 10px;     /* optional: match YouTube layout */
+
+  }
+    
+    
+  .hamburger-menu {
+    height: 20px;
+    margin-left: 20px;
+    
+  }
+  .middle-section {
+    background-color:lightpink;
+    flex:1;
+    margin-left: 30px;
+    margin-right: 35px;
+    max-width:500px;
+  }
+  .right-section {
+    background-color: lightblue;
+    width:200px;
+  }
+  
